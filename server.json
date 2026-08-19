@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/contas_neoenergia_download-mcp",
+  "title": "Neoenergia (Elektro): Download",
+  "description": "Neoenergia (Elektro): Download, official-source lookup. Platform-hosted, pay per query with prepaid ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/contas_neoenergia_download-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_contas_neoenergia_download"
+    }
+  ]
+}
